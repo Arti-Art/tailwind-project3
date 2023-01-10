@@ -1,0 +1,7 @@
+- npm init -y
+- npm install -D tailwindcss
+- npx tailwindcss init // creates a config file
+- adding content: ["./*.html"] to our config file will look for - all html files in our root folder.
+- adding content: ["./src/**/*.{html,js}"] to our config file - will look into the src folder, then any subfolder, and find any html or js file
+- add the following directives "@tailwind base; @tailwind components; @tailwind utilities;" to our input.css file
+- create your npm script for the Tailwind CLI build process
